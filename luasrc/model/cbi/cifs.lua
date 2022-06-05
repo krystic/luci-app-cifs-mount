@@ -33,8 +33,8 @@ end
 pth.rmempty = false
 pth.size = 10
 
-uid = s:option(Value, "server", translate("Owner UID"))
-uid.size = 5
+uid = s:option(Value, "uid", translate("Owner UID"))
+uid.size = 6
 uid.default = "0"
 uid.rmempty = false
 
