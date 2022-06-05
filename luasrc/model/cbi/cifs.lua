@@ -33,6 +33,11 @@ end
 pth.rmempty = false
 pth.size = 10
 
+uid = s:option(Value, "server", translate("Owner UID"))
+uid.size = 5
+uid.default = "0"
+uid.rmempty = false
+
 smbver = s:option(Value, "smbver", translate("SMB Version"))
 smbver.rmempty = false
 smbver:value("1.0", "SMB v1")
